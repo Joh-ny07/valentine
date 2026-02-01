@@ -53,10 +53,6 @@ main .button2{
     text-decoration: none;
 }
 
-p{
-    text-align: center;
-}
-
 .button2:hover {
     background-color: palevioletred;
     color: white;
