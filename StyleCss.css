@@ -1,0 +1,66 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main {
+    background-color: pink;
+    padding: 20px 40px;
+    border-radius: 20px;
+}
+
+img{
+    display: block;
+    margin: auto;
+    width: 200px;
+    border: solid 8px white;
+    border-radius: 10px;
+}
+
+img:hover{
+    border: solid 8px palevioletred;
+    box-shadow: 0 8px 16px rgba(232,62,140,0.8);
+}
+
+h1{
+    text-align: center;
+}
+
+.button{
+    display: flex;
+    gap: 30%;
+    justify-content: center;
+}
+
+main .button1{
+    border: none;
+    padding: 10px 15px;
+    background-color: palevioletred;
+    color: white;
+    border-radius: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main .button2{
+    border: none;
+    padding: 10px 15px;
+    background-color: beige;
+    color: black;
+    border-radius: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p{
+    text-align: center;
+}
+
+.button2:hover, .button1:hover {
+    font-weight: bold;
+    font-size: 1.2rem;
+    box-shadow: 0 8px 16px rgba(232,62,140,0.8);
+}
